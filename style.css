@@ -1,0 +1,109 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+/******************************************************сброс стилей**********************************/
+/*font-family: 'Raleway', sans-serif;*/
+.header {
+}
+.header__top {
+}
+.header__top-inner {
+    padding: 40px   53px;
+    display:flex ;
+    justify-content: space-between;
+}
+.logo {
+}
+.logo__link {
+    
+}
+.logo__img {
+}
+.header__menu {
+}
+.menu__list {
+    display: flex;
+    gap: 50px;
+}
+.menu__list-item {
+}
+.menu__link {
+    color: #373A39;
+font-family: 'Raleway', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+text-decoration: none;
+}
+.menu__link--active {
+}
+.header__content {
+}
+.header-content__inner {
+    background-image: url(index_images/Header-bg.jpg);
+    background-size: cover;
+    height: 88vh;
+}
+.header-content__title {
+    padding-top: 300px;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.header-content__subtitle {
+    padding-top: 20px;
+    color: #FCBB08;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.743px;
+}
+.header-content__decor {
+    padding-top: 244px;
+text-align: center;
+}
+.mouse__img {
+}
+.about {
+}
+.about__inner {
+    padding: 153px  135px;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    color: #242121;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 75px; /* 156.25% */
+letter-spacing: -1.65px;
+}
+.about__title {
+}
+.text {
+    color: #373A39;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; /* 171.429% */
+}
+.about__text {
+    width: 770px;
+}
