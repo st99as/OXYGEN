@@ -49,7 +49,7 @@ text-decoration: none;
 .header-content__inner {
     background-image: url(index_images/Header-bg.jpg);
     background-size: cover;
-    height: 88vh;
+    height: 800px;
 }
 .header-content__title {
     padding-top: 300px;
@@ -105,5 +105,31 @@ font-weight: 300;
 line-height: 24px; /* 171.429% */
 }
 .about__text {
+    width: 770px;
+}
+.expertise {
+    padding: 143px  135px;
+}
+.expertise-inner {
+}
+.title {
+}
+.expertise__title {
+}
+.expertise__second-line {
+    padding-top: 107px;
+    display: flex;
+    justify-content: space-between;
+}
+.expertise__graphics {
+    height: 137px;
+}
+.expertise__graphic {
+}
+.expertise__image {
+}
+.text {
+}
+.expertise__text {
     width: 770px;
 }
