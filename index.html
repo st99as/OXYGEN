@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OXYGEN</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="/css/index_style.css"> -->
+    <link rel="stylesheet" href="index_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Raleway:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -136,7 +137,7 @@
         <div class="container">
             <div class="portfolio__inner">
                 <div class="portfolio__first-line">
-                    <div class="title portfolio__title">Portfolio</div>
+                    <h2 class="title portfolio__title">Portfolio</h2>
                     <nav class="portfolio__menu">
                         <ul class="menu__list">
                             <li class="menu__list-item ">
@@ -170,11 +171,11 @@
         <div class="container">
             <div class="info__inner">
                 <div class="info__quote-inner">
-                    <h3 class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                    <h3 class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.</h3>
                     <h4 class="quote-autor">Gilbert Hammond</h4>
                 </div>
                 <div class="info__player">
-                    <img src="index_images/play.svg" alt="" class="player__button">
+                    <img src="@" alt="" class="player__button">
                 </div>
                 <div class="info__numbers">
                     <ul class="numbers__list">
@@ -208,7 +209,7 @@
                 <div class="slider__content">
                     <div class="slider__slide">
                         <h2 class="slider__title">Then they show that show to the 
-                            people who make shows</h2>
+                         <br>   people who make shows</h2>
                         <h3 class="slider__text">The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s.</h3>
                     </div>
                 </div>
@@ -224,7 +225,7 @@
     <section class="team">
         <div class="container">
             <div class="team__inner">
-                <h2 class="title team__title"></h2>
+                <h2 class="title team__title">Our Team</h2>
                 <div class="team__cards">
                     <div class="team__card">
                         <div class="team__card-image">
@@ -254,7 +255,7 @@
     <section class="pricing">
         <div class="container">
             <div class="pricing__inner">
-                <h2 class="title pricing__title"></h2>
+                <h2 class="title pricing__title">Pricing Plans</h2>
                 <div class="pricing__cards">
                     <div class="pricing__card">
                         <div class="pricing-card__title">Basic</div>
@@ -268,7 +269,7 @@
                         <div class="pricing-card__options">1 Domain Free</div>
                         <div class="pricing-card__options">3 Month License</div>
                         <div class="pricing-card__options">1 GB Storage</div>
-                        <button class="pricing-card__button">CHOOSE PLAN</button>
+                        <div class="pricing-card__button-wrapper"><button class="pricing-card__button">CHOOSE PLAN</button></div>
                     </div>
                     <div class="pricing__card">
                         <div class="pricing-card__title">Starter</div>
@@ -282,7 +283,7 @@
                         <div class="pricing-card__options">1 Domain Free</div>
                         <div class="pricing-card__options">3 Month License</div>
                         <div class="pricing-card__options">1 GB Storage</div>
-                        <button class="pricing-card__button">CHOOSE PLAN</button>
+                        <div class="pricing-card__button-wrapper"><button class="pricing-card__button">CHOOSE PLAN</button></div>
                     </div>
                     <div class="pricing__card">
                         <div class="pricing-card__title">Professional</div>
@@ -296,7 +297,7 @@
                         <div class="pricing-card__options">1 Domain Free</div>
                         <div class="pricing-card__options">3 Month License</div>
                         <div class="pricing-card__options">1 GB Storage</div>
-                        <button class="pricing-card__button">CHOOSE PLAN</button>
+                        <div class="pricing-card__button-wrapper"><button class="pricing-card__button">CHOOSE PLAN</button></div>
                     </div>
                 </div>
             </div>
@@ -306,19 +307,19 @@
         <div class="container">
             <div class="getintouch__inner">
                 <div class="getintouch__left-side">
-                    <h2 class="title getintouch__title"></h2>
+                    <h2 class="title getintouch__title">Get in Touch</h2>
                     <form action="" class="getintouch__form">
-                        <input class="getintouch-form__name" type="text" placeholder="YOUR NAME">
-                        <input class="getintouch-form__email" type="text" placeholder="YOUR EMAIL">
-                        <textarea class="getintouch-form__message" name="" id="" cols="30" rows="10"placeholder="YOUR MESSAGE"></textarea>
-                        <input type="button" value="SEND MESSAGE">
+                        <div class="getintouch-form__name-wrapper"><input class="getintouch-form__name" type="text" placeholder="YOUR NAME"></div>
+                        <div class="getintouch-form__email-wrapper"><input class="getintouch-form__email" type="text" placeholder="YOUR EMAIL"></div>
+                        <div class="getintouch-form__message-wrapper"><textarea class="getintouch-form__message" name="" id="" cols="30" rows="10"placeholder="YOUR MESSAGE"></textarea></div>
+                        <div class="getintouch-form__button-wrapper"><input class="getintouch-form__button" type="button" value="SEND MESSAGE"></div>
                     </form>
                 </div>
-            </div>
             <div class="getintouch__right-side">
                 <div class="getintouch__map">
                     <img src="index_images/map.jpg" alt="" class="getintouch__map-img">
                 </div>
+            </div>
             </div>
         </div>
     </section>
