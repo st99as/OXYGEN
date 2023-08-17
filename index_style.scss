@@ -502,16 +502,15 @@ letter-spacing: -1.65px;
         padding-top: 57px;
         padding-bottom: 60px;
     }
-    .footer__copy-content{
-        p{
-        color: #CCC;
-        text-align: center;
-        font-family: Open Sans;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        background: #2A2C2B;
-        } 
-    }
+}
+.footer__copyright{
+    color: #CCC;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #2A2C2B;
+    padding: 43px   0;
 }

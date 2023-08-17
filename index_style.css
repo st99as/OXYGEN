@@ -581,7 +581,8 @@ table {
   padding-top: 57px;
   padding-bottom: 60px;
 }
-.footer__content .footer__copy-content p {
+
+.footer__copyright {
   color: #CCC;
   text-align: center;
   font-family: Open Sans;
@@ -589,5 +590,6 @@ table {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: #2A2C2B;
+  background-color: #2A2C2B;
+  padding: 43px 0;
 }/*# sourceMappingURL=index_style.css.map */
