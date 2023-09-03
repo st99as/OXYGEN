@@ -38,6 +38,10 @@ table {
 }
 
 /****************************************************mixins*********************************************************/
+body {
+  position: relative;
+}
+
 .title {
   color: #242121;
   font-family: Montserrat;
@@ -46,6 +50,51 @@ table {
   font-weight: 700;
   line-height: 75px; /* 156.25% */
   letter-spacing: -1.65px;
+  position: relative;
+}
+
+.expertise__title {
+  width: 323px;
+}
+
+.magic__title {
+  position: relative;
+}
+
+.magic__title:after {
+  content: "";
+  position: absolute;
+  top: 149px;
+  left: 0px;
+  height: 4px;
+  width: 100%;
+  background-color: #FCBB08;
+  transition: width 0.4s ease-in-out;
+  z-index: 1000000000000000000;
+}
+
+.portfolio__title {
+  width: 202px;
+}
+
+.team__title {
+  width: 232px;
+}
+
+.pricing__title {
+  width: 310px;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  top: 66px;
+  left: 0px; /* = padding size */
+  height: 4px;
+  width: 100%;
+  background-color: #FCBB08;
+  transition: width 0.4s ease-in-out;
+  z-index: 1000000000000000000;
 }
 
 .header__top-inner {
@@ -58,6 +107,29 @@ table {
   display: flex;
   gap: 50px;
   padding-top: 15px;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.menu__list-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.menu__list-item:after {
+  content: "";
+  position: absolute;
+  top: 19px;
+  left: 0px; /* = padding size */
+  height: 4px;
+  width: 0;
+  background-color: #FCBB08;
+  transition: width 0.4s ease-in-out;
+  z-index: 1000000000000000000;
+}
+
+.menu__list-item:hover:after {
+  width: 100%;
 }
 
 .menu__link {
@@ -215,7 +287,7 @@ table {
   font-weight: 700;
   line-height: 75px; /* 156.25% */
   letter-spacing: -1.65px;
-  width: 470px;
+  width: 325px;
   height: 150px;
   margin-bottom: 67px;
 }
@@ -414,6 +486,11 @@ table {
   height: 583px;
   flex-shrink: 0;
   background: #FFF;
+  cursor: pointer;
+  transition: all 1.5s ease-in-out;
+}
+.pricing__inner .pricing__cards .pricing__card:hover {
+  transform: scale(1.25);
 }
 .pricing__inner .pricing__cards .pricing-card__title {
   padding-top: 24px;
@@ -592,4 +669,64 @@ table {
   line-height: normal;
   background-color: #2A2C2B;
   padding: 43px 0;
+}
+
+.arrow-up {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+.arrow-up .arrow-up__img {
+  display: flex;
+  justify-content: center;
+}
+
+.header-content__decor :hover {
+  transition: all 1.5s ease-in-out;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.footer__up-button:hover {
+  transition: all 1.5s ease-in-out;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.slider__content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1500px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.slider-content__wrapper {
+  position: absolute;
+  top: 194px;
+  left: 421px;
+  display: flex;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.1s;
+}
+
+.slider__slide {
+  width: 1519px;
+}
+
+.slider__arrow-right {
+  cursor: pointer;
+}
+
+.slider__arrow-right:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.5);
+}
+
+.slider__arrow-left:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.5);
+  cursor: pointer;
 }/*# sourceMappingURL=index_style.css.map */
